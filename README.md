@@ -1,4 +1,4 @@
-# 🎬 Netflix Movie Recommendation System
+# 🎬 Movie Recommendation System
 
 ## 📊 Project Overview
 
