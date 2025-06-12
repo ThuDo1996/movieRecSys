@@ -1,6 +1,6 @@
 ### 🔧 Model Training
 
-We implement two deep learning models for recommendation: **LightGCN** and **NeuCF** to making recommendations.
+We implement two deep learning models for recommendation: **LightGCN [1]** and **NeuCF [2]** to making recommendations.
 
 #### 📁 Project Structure
 
@@ -33,3 +33,6 @@ You can switch between models in `main.py` by changing the model selection param
 #### Usage
 - Run `python data_preprocess.py` to create training, validation, and test sets
 - Run `python main.py` to train the model. 
+#### References:
+[1]He, X., Deng, K., Wang, X., Li, Y., Zhang, Y., & Wang, M. (2020, July). Lightgcn: Simplifying and powering graph convolution network for recommendation. In Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval (pp. 639-648).
+[2]He, X., Liao, L., Zhang, H., Nie, L., Hu, X., & Chua, T. S. (2017, April). Neural collaborative filtering. In Proceedings of the 26th international conference on world wide web (pp. 173-182).
