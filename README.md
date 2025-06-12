@@ -9,7 +9,7 @@ This project builds a movie recommendation system using the **Netflix 1M dataset
 - **6,040 users**
 - Includes **movie metadata** and **user demographic profiles**
 
-We aim to deliver personalized movie recommendations through deep learning models and graph-based techniques.
+We aim to deliver personalized movie recommendations through deep learning models.
 
 ---
 
