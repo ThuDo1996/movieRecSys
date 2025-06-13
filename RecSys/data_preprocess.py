@@ -26,11 +26,10 @@ def split_train_test(data):
 
 if __name__ == '__main__':
 
-    data = pd.read_csv("../Data_Preprocessing/Reprocessed_Data/ratings.csv")
-    filtered_data = filter_data(data)
+    data = pd.read_csv("../Data_Preprocessing/Preprocessed_Data/ratings.csv")
+    filtered_data = filter_data(data, 10)
     train, valid, test = split_train_test(filtered_data)
     train.to_csv("data/train.csv", index=False)
     valid.to_csv("data/valid.csv", index=False)
     test.to_csv("data/test.csv", index=False)
-    
     
