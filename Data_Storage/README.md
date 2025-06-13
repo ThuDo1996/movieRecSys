@@ -63,7 +63,7 @@ The database consists of the following tables:
 - Each **user** is associated with an **age group** and an **occupation**
 
 ---
-
+<!-- 
 ### 📊 ER Diagram
 
 ```mermaid
@@ -73,5 +73,5 @@ erDiagram
     users ||--o{ rating : gives
     movie ||--o{ rating : receives
     users }o--|| age : 
-    users }o--|| occupation : "has"
+    users }o--|| occupation : "has" -->
 
