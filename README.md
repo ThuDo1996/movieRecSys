@@ -20,9 +20,7 @@ We aim to deliver personalized movie recommendations through deep learning model
 - **MySQL** (Data storage and querying)
 - **Matplotlib** (Visualization)
 - **PyTorch** (Model training)
-- **Deep Learning Models**: 
-  - Neural Collaborative Filtering (**NCF**)
-  - Graph Neural Network (**GNN**)
+- **Deep Learning Models**: Graph Neural Network, Contrastive Learning
 
 ---
 
@@ -43,10 +41,9 @@ We aim to deliver personalized movie recommendations through deep learning model
    - Plotted distributions of ratings, movie popularity, and user activity using `matplotlib`
 
 5. **Model Training**  
-   - Trained two recommendation models:
-     - **Neural Collaborative Filtering (NCF)**: Captures non-linear interactions with MLP layers
-     - **Graph Neural Network (GNN)**: Leverages user-item interaction graph for structural learning
-
+     - **LightGCN [1]**: Captures high-order connectivity by propagating and aggregating information over the user–item interaction graph.
+     - **SGL [2]**: Uses the contrastive learning task to enhance the graph representation learning. Random structural augmentation (edge dropping) is used to generate augmented views.
+     --**XSimGCL [3]**: Uses the contrastive learning task to enhance the graph representation learning in which augmented views are generated using noise-based augmentation method.
 ---
 
 ## 📌 Key Highlights
@@ -64,28 +61,17 @@ We aim to deliver personalized movie recommendations through deep learning model
 
 ---
 
-## ✅ Results
+## ✅ Experimental Results (Model training)
 
-> Coming soon: Accuracy scores and evaluation metrics across both models
+> Hit Ratio (HR) and Normalized Discounted Cumulative Gain (NDCG) are used as evaluation metrics
 
----
+|  Method  |    HR@5  |  NDCG@5  |   HR@10  |  NDCG@10 |
+|----------|----------|----------|----------|----------|
+| LightGCN | Row1Val2 | Row1Val3 | Row1Val4 | Row1Val5 |
+|    SGL   | Row2Val2 | Row2Val3 | Row2Val4 | Row2Val5 |
+|  XSimGCL | Row3Val2 | Row3Val3 | Row3Val4 | Row3Val5 |
 
-## 📎 How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/ThuDo1996/movieRecSys
-cd movieRecSys
-
-# (Optional) Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run preprocessing
-python preprocess.py
-
-# Train model
-python train_ncf.py  # or python train_gnn.py
+## References
+[1] He, X., Deng, K., Wang, X., Li, Y., Zhang, Y., & Wang, M. (2020, July). Lightgcn: Simplifying and powering graph convolution network for recommendation. In Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval (pp. 639-648).
+[2] Wu, J., Wang, X., Feng, F., He, X., Chen, L., Lian, J., & Xie, X. (2021, July). Self-supervised graph learning for recommendation. In Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval (pp. 726-735).
+[3] Yu, J., Xia, X., Chen, T., Cui, L., Hung, N. Q. V., & Yin, H. (2023). XSimGCL: Towards extremely simple graph contrastive learning for recommendation. IEEE Transactions on Knowledge and Data Engineering, 36(2), 913-926.
