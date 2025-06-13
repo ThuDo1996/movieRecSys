@@ -9,13 +9,13 @@ from tqdm import tqdm
 import warnings
 
 class Data(object):
-    def __init__(self, path, domain, args):
+    def __init__(self, path, args):
         super(Data, self).__init__()
 
         ### Load data
-        self.train = pd.read_csv(path + "train_"+domain+".csv")
-        valid = pd.read_csv(path + "valid_"+domain+".csv")
-        test = pd.read_csv(path + "test_"+domain+".csv")
+        self.train = pd.read_csv(path + "train.csv")
+        valid = pd.read_csv(path + "valid.csv")
+        test = pd.read_csv(path + "test.csv")
         full_data = pd.concat([self.train, valid, test])
 
         ### Data statistic
@@ -23,7 +23,7 @@ class Data(object):
         self.n_users = max(full_data["uid"]) + 1
         self.n_items = max(full_data['iid']) + 1
         self.n_train = self.train.shape[0]
-        print("Domain = {}: Number of users = {},  items = {}, ratings = {}".format(domain,self.n_users, self.n_items, self.n_train))
+        print("Number of users = {},  items = {}, ratings = {}".format(self.n_users, self.n_items, self.n_train))
 
         ### Create interaction matrix
         if self.args.option == 1:
