@@ -68,10 +68,10 @@ The database consists of the following tables:
 
 ```mermaid
 erDiagram
-    movie ||--o{ movie_genre : has
-    genre ||--o{ movie_genre : includes
+    movie ||--o{ movie_genre :
+    genre ||--o{ movie_genre :
     users ||--o{ rating : gives
     movie ||--o{ rating : receives
-    users }o--|| age : "belongs to"
+    users }o--|| age : 
     users }o--|| occupation : "has"
 
