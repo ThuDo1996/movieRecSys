@@ -1,3 +1,4 @@
+CREATE DATABASE movieRecSys
 USE movieRecSys
 
 ### create movie table
