@@ -71,7 +71,7 @@ movie_id,name,year
 69,From Dusk Till Dawn,1996
 70,Fair Game,1995
 71,Kicking and Screaming,1995
-72,"Misérables, Les",1995
+72,"Misrables, Les",1995
 73,Bed of Roses,1996
 74,Big Bully,1996
 75,Screamers,1995
@@ -565,7 +565,7 @@ movie_id,name,year
 566,Kika,1993
 567,Bhaji on the Beach,1993
 568,Little Big League,1994
-569,"Slingshot, The (Kådisbellan )",1993
+569,"Slingshot, The (Kdisbellan )",1993
 570,"Wedding Gift, The",1994
 571,Foreign Student,1994
 572,"Ciao, Professore! (Io speriamo che me la cavo )",1993
@@ -577,7 +577,7 @@ movie_id,name,year
 578,"Scorta, La",1993
 579,Princess Caraboo,1994
 580,"Celluloid Closet, The",1995
-581,Metisse (Café au Lait),1993
+581,Metisse (Caf au Lait),1993
 582,Dear Diary (Caro Diario),1994
 583,I Don't Want to Talk About It (De eso no se habla),1993
 584,"Brady Bunch Movie, The",1995
@@ -642,7 +642,7 @@ movie_id,name,year
 644,Nelly & Monsieur Arnaud,1995
 646,Courage Under Fire,1996
 647,Mission: Impossible,1996
-648,Cold Fever (Á köldum klaka),1994
+648,Cold Fever (aldum klaka),1994
 649,Moll Flanders,1996
 650,"Superweib, Das",1996
 651,"301, 302",1995
@@ -1100,7 +1100,7 @@ movie_id,name,year
 1113,"Funeral, The",1996
 1114,Sleepover,1995
 1115,"Single Girl, A (La Fille Seule)",1995
-1116,"Eighth Day, The (Le Huitième jour )",1996
+1116,"Eighth Day, The (Le Huitime jour )",1996
 1117,Tashunga,1995
 1118,Drunks,1997
 1119,"People vs. Larry Flynt, The",1996
@@ -1132,7 +1132,7 @@ movie_id,name,year
 1145,Curtis's Charm,1995
 1146,When We Were Kings,1996
 1147,"Wrong Trousers, The",1993
-1148,JLG/JLG - autoportrait de décembre,1994
+1148,JLG/JLG - autoportrait de dcembre,1994
 1149,"Return of Martin Guerre, The (Retour de Martin Guerre, Le)",1982
 1150,Faust,1994
 1151,He Walked by Night,1948
@@ -1159,7 +1159,7 @@ movie_id,name,year
 1172,"Cook the Thief His Wife & Her Lover, The",1989
 1173,Grosse Fatigue,1994
 1174,Delicatessen,1991
-1175,"Double Life of Veronique, The (La Double Vie de Véronique)",1991
+1175,"Double Life of Veronique, The (La Double Vie de Vronique)",1991
 1176,Enchanted April,1991
 1177,Paths of Glory,1957
 1178,"Grifters, The",1990
@@ -1192,7 +1192,7 @@ movie_id,name,year
 1207,Apocalypse Now,1979
 1208,Once Upon a Time in the West,1969
 1209,Star Wars: Episode VI - Return of the Jedi,1983
-1210,Wings of Desire (Der Himmel über Berlin),1987
+1210,Wings of Desire (Der Himmel ber Berlin),1987
 1211,"Third Man, The",1949
 1212,GoodFellas,1990
 1213,Alien,1979
@@ -1299,7 +1299,7 @@ movie_id,name,year
 1316,I'm Not Rappaport,1996
 1317,Blue Juice,1995
 1318,Kids of Survival,1993
-1319,Alien³,1992
+1319,Alien,1992
 1320,"American Werewolf in London, An",1981
 1321,Amityville 1992: It's About Time,1992
 1322,Amityville 3-D,1983
@@ -1342,7 +1342,7 @@ movie_id,name,year
 1360,Paradise Lost: The Child Murders at Robin Hood Hills,1996
 1361,"Garden of Finzi-Contini, The (Giardino dei Finzi-Contini, Il)",1970
 1362,"Preacher's Wife, The",1996
-1363,Zero Kelvin (Kjærlighetens kjøtere),1995
+1363,Zero Kelvin (Kjrlighetens kjere),1995
 1364,Ridicule,1996
 1365,"Crucible, The",1996
 1366,101 Dalmatians,1996
@@ -1382,7 +1382,7 @@ movie_id,name,year
 1400,Ghosts of Mississippi,1996
 1403,Night Falls on Manhattan,1997
 1404,Beavis and Butt-head Do America,1996
-1405,"Cérémonie, La",1995
+1405,"Cmonie, La",1995
 1406,Scream,1996
 1407,"Last of the Mohicans, The",1992
 1408,Michael,1996
@@ -1531,7 +1531,7 @@ movie_id,name,year
 1568,My Best Friend's Wedding,1997
 1569,Tetsuo II: Body Hammer,1992
 1570,When the Cats Away (Chacun cherche son chat),1996
-1571,Contempt (Le Mépris),1963
+1571,Contempt (Le Mpris),1963
 1572,Face/Off,1997
 1573,Fall,1997
 1574,Gabbeh,1996
@@ -1617,7 +1617,7 @@ movie_id,name,year
 1660,Switchback,1997
 1661,Gang Related,1997
 1662,Stripes,1981
-1663,Nénette et Boni,1996
+1663,Nnette et Boni,1996
 1664,Bean,1997
 1665,Hugo Pool,1997
 1666,Mad City,1997
@@ -1689,7 +1689,7 @@ movie_id,name,year
 1737,Vermin,1998
 1738,3 Ninjas: High Noon On Mega Mountain,1998
 1739,Men of Means,1998
-1740,"Midaq Alley (Callejón de los milagros, El)",1995
+1740,"Midaq Alley (Callejn de los milagros, El)",1995
 1741,Caught Up,1998
 1742,Arguing the World,1996
 1743,Firestorm,1998
@@ -1734,7 +1734,7 @@ movie_id,name,year
 1791,U.S. Marshalls,1998
 1792,Welcome to Woop-Woop,1997
 1793,Love and Death on Long Island,1997
-1794,"Callejón de los milagros, El",1995
+1794,"Callejn de los milagros, El",1995
 1795,In God's Hands,1998
 1796,Everest,1998
 1797,Hush,1998
@@ -1803,7 +1803,7 @@ movie_id,name,year
 1869,"Dancer, Texas Pop. 81",1998
 1870,"Friend of the Deceased, A",1997
 1871,Go Now,1995
-1872,"Misérables, Les",1998
+1872,"Misables, Les",1998
 1873,Still Breathing,1997
 1874,Clockwatchers,1997
 1875,Deep Impact,1998
@@ -1863,7 +1863,7 @@ movie_id,name,year
 1929,Cavalcade,1933
 1930,Mutiny on the Bounty,1935
 1931,"Great Ziegfeld, The",1936
-1932,"Life of Émile Zola, The",1937
+1932,"Life of Vamile Zola, The",1937
 1933,You Can't Take It With You,1938
 1934,How Green Was My Valley,1941
 1935,Mrs. Miniver,1942
@@ -1993,7 +1993,7 @@ movie_id,name,year
 2059,BASEketball,1998
 2060,Full Tilt Boogie,1997
 2061,"Governess, The",1998
-2062,Seventh Heaven (Le Septième ciel),1997
+2062,Seventh Heaven (Le Septime ciel),1997
 2063,Roger & Me,1989
 2064,"Purple Rose of Cairo, The",1985
 2065,Out of the Past,1947
@@ -2061,7 +2061,7 @@ movie_id,name,year
 2127,Safe Men,1998
 2128,"Saltmen of Tibet, The",1997
 2129,Atlantic City,1980
-2130,Autumn Sonata (Höstsonaten ),1978
+2130,Autumn Sonata (Hstsonaten ),1978
 2131,Who's Afraid of Virginia Woolf?,1966
 2132,Adventures in Babysitting,1987
 2133,Weird Science,1985
@@ -2105,7 +2105,7 @@ movie_id,name,year
 2171,"Strike! (a.k.a. All I Wanna Do, The Hairy Bird)",1998
 2172,"Navigator: A Mediaeval Odyssey, The",1988
 2173,Beetlejuice,1988
-2174,Déjà Vu,1997
+2174,Dj Vu,1997
 2175,Rope,1948
 2176,Family Plot,1976
 2177,Frenzy,1972
@@ -2254,7 +2254,7 @@ movie_id,name,year
 2320,Pleasantville,1998
 2321,Soldier,1998
 2322,"Cruise, The",1998
-2323,Life Is Beautiful (La Vita è bella),1997
+2323,Life Is Beautiful (La Vita bella),1997
 2324,Orgazmo,1997
 2325,Shattered Image,1998
 2326,Tales from the Darkside: The Movie,1990
@@ -2410,10 +2410,10 @@ movie_id,name,year
 2476,Firewalker,1986
 2477,Three Amigos!,1986
 2478,Gloria,1999
-2479,Dry Cleaning (Nettoyage à sec),1997
+2479,Dry Cleaning (Nettoyage sec),1997
 2480,My Name Is Joe,1998
 2481,Still Crazy,1998
-2482,"Day of the Beast, The (El Día de la bestia)",1995
+2482,"Day of the Beast, The (El D de la bestia)",1995
 2483,Tinseltown,1998
 2484,She's All That,1999
 2485,24-hour Woman,1998
@@ -2425,7 +2425,7 @@ movie_id,name,year
 2491,20 Dates,1998
 2492,"Harmonists, The",1997
 2493,"Last Days, The",1998
-2494,"Fantastic Planet, The (La Planète sauvage)",1973
+2494,"Fantastic Planet, The (La Plante sauvage)",1973
 2495,Blast from the Past,1999
 2496,Message in a Bottle,1999
 2497,My Favorite Martian,1999
@@ -2474,7 +2474,7 @@ movie_id,name,year
 2540,Cruel Intentions,1999
 2541,"Lock, Stock & Two Smoking Barrels",1998
 2542,Six Ways to Sunday,1997
-2543,"School of Flesh, The (L' École de la chair)",1998
+2543,"School of Flesh, The (Lacole de la chair)",1998
 2544,Relax... It's Just Sex,1998
 2545,"Deep End of the Ocean, The",1999
 2546,Harvest,1998
@@ -2505,7 +2505,7 @@ movie_id,name,year
 2571,10 Things I Hate About You,1999
 2572,Tango,1998
 2573,"Out-of-Towners, The",1999
-2574,"Dreamlife of Angels, The (La Vie rêvée des anges)",1998
+2574,"Dreamlife of Angels, The (La Vie re des anges)",1998
 2575,"Love, etc.",1996
 2576,Metroland,1997
 2577,"Sticky Fingers of Time, The",1997
@@ -2515,13 +2515,13 @@ movie_id,name,year
 2581,Twin Dragons (Shuang long hui),1992
 2582,Cookie's Fortune,1999
 2583,Foolish,1999
-2584,"Lovers of the Arctic Circle, The (Los Amantes del Círculo Polar)",1998
+2584,"Lovers of the Arctic Circle, The (Los Amantes del Cculo Polar)",1998
 2585,"Goodbye, Lover",1999
 2586,Life,1999
 2587,Clubland,1998
 2588,Friends & Lovers,1999
 2589,Hideous Kinky,1998
-2590,Jeanne and the Perfect Guy (Jeanne et le garçon formidable),1998
+2590,Jeanne and the Perfect Guy (Jeanne et le garbon formidable),1998
 2591,"Joyriders, The",1999
 2592,"Monster, The (Il Mostro)",1994
 2593,Open Your Eyes (Abre los ojos),1997
@@ -2533,7 +2533,7 @@ movie_id,name,year
 2599,eXistenZ,1999
 2600,"Little Bit of Soul, A",1998
 2601,Mighty Peking Man (Hsing hsing wang),1977
-2602,Nô,1998
+2602,N,1998
 2603,Let it Come Down: The Life of Paul Bowles,1998
 2604,Entrapment,1999
 2605,Idle Hands,1999
@@ -2626,7 +2626,7 @@ movie_id,name,year
 2692,Trekkies,1997
 2693,Big Daddy,1999
 2694,"Boys, The",1997
-2695,"Dinner Game, The (Le Dîner de cons)",1998
+2695,"Dinner Game, The (Le Dner de cons)",1998
 2696,My Son the Fanatic,1998
 2697,Zone 39,1997
 2698,Arachnophobia,1990
@@ -2635,7 +2635,7 @@ movie_id,name,year
 2701,Summer of Sam,1999
 2702,Broken Vessels,1998
 2703,"Lovers on the Bridge, The (Les Amants du Pont-Neuf)",1991
-2704,"Late August, Early September (Fin août, début septembre)",1998
+2704,"Late August, Early September (Fin aot, dbut septembre)",1998
 2705,American Pie,1999
 2706,Arlington Road,1999
 2707,"Autumn Tale, An (Conte d'automne)",1998
@@ -2672,7 +2672,7 @@ movie_id,name,year
 2738,"Color Purple, The",1985
 2739,"Kindred, The",1986
 2740,No Mercy,1986
-2741,Ménage (Tenue de soirée),1986
+2741,Mnage (Tenue de soire),1986
 2742,Native Son,1986
 2743,Otello,1986
 2744,"Mission, The",1986
@@ -2690,7 +2690,7 @@ movie_id,name,year
 2756,Frances,1982
 2757,Plenty,1985
 2758,Dick,1999
-2759,"Gambler, The (A Játékos)",1997
+2759,"Gambler, The (A jvtkos)",1997
 2760,"Iron Giant, The",1999
 2761,"Sixth Sense, The",1999
 2762,"Thomas Crown Affair, The",1999
@@ -2799,7 +2799,7 @@ movie_id,name,year
 2865,"Buddy Holly Story, The",1978
 2866,Fright Night,1985
 2867,Fright Night Part II,1989
-2868,"Separation, The (La Séparation)",1994
+2868,"Separation, The (La Saparation)",1994
 2869,Barefoot in the Park,1967
 2870,Deliverance,1972
 2871,Excalibur,1981
@@ -2984,7 +2984,7 @@ movie_id,name,year
 3050,Anywhere But Here,1999
 3051,Dogma,1999
 3052,"Messenger: The Story of Joan of Arc, The",1999
-3053,Pokémon: The First Movie,1998
+3053,Pokemon: The First Movie,1998
 3054,Felicia's Journey,1999
 3055,Oxygen,1999
 3056,Where's Marlowe?,1999
@@ -3157,7 +3157,7 @@ movie_id,name,year
 3223,Woman in the Dunes (Suna no onna),1964
 3224,Down to You,2000
 3225,Hellhounds on My Trail,1999
-3226,"Not Love, Just Frenzy (Más que amor, frenesí)",1996
+3226,"Not Love, Just Frenzy (Ms que amor, frenes)",1996
 3227,Wirey Spindell,1999
 3228,Another Man's Poison,1952
 3229,"Odessa File, The",1974
@@ -3167,11 +3167,11 @@ movie_id,name,year
 3233,Train Ride to Hollywood,1978
 3234,Where the Buffalo Roam,1980
 3235,Zachariah,1971
-3236,Kestrel's Eye (Falkens öga),1998
+3236,Kestrel's Eye (Falkens vga),1998
 3237,Eye of the Beholder,1999
 3238,Isn't She Great?,2000
 3239,"Big Tease, The",1999
-3240,"Cup, The (Phörpa)",1999
+3240,"Cup, The (Phrpa)",1999
 3241,Santitos,1997
 3242,Encino Man,1992
 3243,"Goodbye Girl, The",1977
@@ -3196,7 +3196,7 @@ movie_id,name,year
 3262,White Men Can't Jump,1992
 3263,Buffy the Vampire Slayer,1992
 3264,Hard-Boiled (Lashou shentan),1992
-3265,Man Bites Dog (C'est arrivé près de chez vous),1992
+3265,Man Bites Dog (C'est arrivpr de chez vous),1992
 3266,"Mariachi, El",1992
 3267,Stop! Or My Mom Will Shoot,1992
 3268,Forever Young,1992
@@ -3299,7 +3299,7 @@ movie_id,name,year
 3365,Where Eagles Dare,1969
 3366,"Devil's Brigade, The",1968
 3367,"Big Country, The",1958
-3368,Any Number Can Win (Mélodie en sous-sol ),1963
+3368,Any Number Can Win,1963
 3369,Betrayed,1988
 3370,Bound for Glory,1976
 3371,"Bridge at Remagen, The",1969
@@ -3346,7 +3346,7 @@ movie_id,name,year
 3412,Impact,1949
 3413,Love Is a Many-Splendored Thing,1955
 3414,"Mirror, The (Zerkalo)",1975
-3415,"Trial, The (Le Procès)",1963
+3415,"Trial, The",1963
 3416,"Crimson Pirate, The",1952
 3417,Thelma & Louise,1991
 3418,Something for Everyone,1970
@@ -3462,7 +3462,7 @@ movie_id,name,year
 3528,"Postman Always Rings Twice, The",1981
 3529,Smoking/No Smoking,1993
 3530,All the Vermeers in New York,1990
-3531,Freedom for Us (À nous la liberté ),1931
+3531,Freedom for Us,1931
 3532,"Actor's Revenge, An (Yukinojo Henge)",1963
 3533,28 Days,2000
 3534,American Psycho,2000
@@ -3522,7 +3522,7 @@ movie_id,name,year
 3588,"Kill, Baby... Kill! (Operazione Paura)",1966
 3589,"Lords of Flatbush, The",1974
 3590,Mr. Mom,1983
-3591,Time Masters (Les Maîtres du Temps),1982
+3591,Time Masters,1982
 3592,Battlefield Earth,2000
 3593,Center Stage,2000
 3594,Held Up,2000
@@ -3575,14 +3575,14 @@ movie_id,name,year
 3641,In Old California,1942
 3642,"Fighting Seabees, The",1944
 3643,Dark Command,1940
-3644,Cleo From 5 to 7 (Cléo de 5 à 7),1962
+3644,Cleo From 5 to 7,1962
 3645,Big Momma's House,2000
 3646,Running Free,2000
 3647,"Abominable Snowman, The",1957
 3648,American Gigolo,1980
 3649,Anguish (Angustia),1986
 3650,"Blood Spattered Bride, The (La Novia Ensangrentada)",1972
-3651,City of the Living Dead (Paura nella città dei morti viventi),1980
+3651,City of the Living Dead ,1980
 3652,"Endless Summer, The",1966
 3653,"Guns of Navarone, The",1961
 3654,Blow-Out (La Grande Bouffe),1973
@@ -3679,7 +3679,7 @@ movie_id,name,year
 3745,Butterfly (La Lengua de las Mariposas),2000
 3746,Jesus' Son,1999
 3747,"Match, The",1999
-3748,Time Regained (Le Temps Retrouvé),1999
+3748,Time Regained,1999
 3749,Boricua's Bond,2000
 3750,Chicken Run,2000
 3751,"Me, Myself and Irene",2000
@@ -3729,7 +3729,7 @@ movie_id,name,year
 3795,"Wisdom of Crocodiles, The (a.k.a. Immortality)",2000
 3796,"In Crowd, The",2000
 3797,What Lies Beneath,2000
-3798,Pokémon the Movie 2000,2000
+3798,Pokemon the Movie 2000,2000
 3799,Criminal Lovers (Les Amants Criminels),1999
 3800,Anatomy of a Murder,1959
 3801,Freejack,1992
@@ -3746,7 +3746,7 @@ movie_id,name,year
 3812,Interiors,1978
 3813,Love and Death,1975
 3815,"Official Story, The (La Historia Oficial)",1985
-3816,"Other Side of Sunday, The (Søndagsengler)",1996
+3816,Other Side of Sunday,1996
 3817,Pot O' Gold,1941
 3818,Tampopo,1986
 3819,Thomas and the Magic Railroad,2000
@@ -3774,7 +3774,7 @@ movie_id,name,year
 3841,Make Them Die Slowly (Cannibal Ferox),1980
 3842,Sleepaway Camp,1983
 3843,Steel Magnolias,1989
-3844,And God Created Woman (Et Dieu&#8230;Créa la Femme),1956
+3844,And God Created Woman ,1956
 3845,Easy Money,1983
 3846,"Ilsa, She Wolf of the SS",1974
 3847,Silent Fall,1994
@@ -3783,7 +3783,7 @@ movie_id,name,year
 3850,I'm the One That I Want,2000
 3851,"Tao of Steve, The",2000
 3852,"Tic Code, The",1998
-3853,Aimée & Jaguar,1999
+3853,Aimve and Jaguar,1999
 3854,"Affair of Love, An (Une Liaison Pornographique)",1999
 3855,Autumn Heart,1999
 3856,Bless the Child,2000
