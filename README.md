@@ -48,7 +48,7 @@ We aim to deliver personalized movie recommendations through deep learning model
 
 - End-to-end data pipeline from ingestion to modeling
 - Integrated SQL and Python for scalable analytics
-- Compared performance of NCF and GNN in terms of recommendation accuracy
+- Built recommendation models based on graph neural network 
 
 ---
 
