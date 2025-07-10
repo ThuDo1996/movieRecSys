@@ -1,11 +1,12 @@
 import torch
 import torch.optim as optim
 import numpy as np
-from Data import Data
+from data_loader import Data
 import torch.optim as optim
 from tqdm import tqdm
 import argparse
 from LightGCN import LightGCN
+from SGL import SGL
 
 def test_hit_ratio(user_data, emb_model):
       def get_top_N_items(candidate_scores, candidates):
@@ -58,14 +59,20 @@ def test_hit_ratio(user_data, emb_model):
 def train(args):
     path = args.data_path
     data_generator = Data(path, args)
-    emb_model = LightGCN(data_generator, args).to(args.device)
-    optimizer_emb= optim.Adam(emb_model.parameters(), lr = args.lr, weight_decay = 1e-6)
+    if args.model == "LightGCN":
+      print("Training with LightGCN model")
+      emb_model = LightGCN(data_generator, args).to(args.device)
+    if args.model == "SGL":
+      print("Training with SGL model")
+      emb_model = SGL(data_generator, args).to(args.device)
+      
+    optimizer_emb= optim.Adam(emb_model.parameters(), lr = args.lr)
           
     best_hit = -1
     count_stop = 0
     index = 0
-
-    while count_stop < 10 and index <100:
+    
+    while count_stop < 5 and index <100:
         emb_model.train()
         print("-------------- Loop {}----------------".format(index))
         train_data = data_generator.get_data(args.batch_size)
@@ -83,14 +90,14 @@ def train(args):
 
         if hit >best_hit:
           best_hit = hit
-          torch.save(emb_model.state_dict(), "model/LightGCN.pth")
+          torch.save(emb_model.state_dict(), "model/"+ args.model+".pth")
 
           count_stop=0
         count_stop+=1
         index+=1
 
     
-    emb_model.load_state_dict(torch.load("model/LightGCN.pth"))
+    emb_model.load_state_dict(torch.load("model/"+ args.model+".pth", weights_only=True))
     emb_model.eval()
     test_hit_5, test_ndcg_5, test_hit_10, test_ndcg_10 = test_hit_ratio(data_generator.test, emb_model)
     print("HR@5 = {:.4f} , NDCG@5 ={:.4f}, HR@10 = {:.4f} , NDCG@10 ={:.4f}".format(test_hit_5, test_ndcg_5, test_hit_10, test_ndcg_10))
@@ -101,17 +108,13 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=1024) 
     parser.add_argument('--emb_size', type=int, default=64)
     parser.add_argument('--lr', type=float, default=0.001)
-
+    parser.add_argument('--wd', type=float, default=1e-5)
     parser.add_argument('--layer_size', type=int, default=3),
-    parser.add_argument('--node_dropout', nargs='?', default=[0.1])
-    parser.add_argument('--mess_dropout', nargs='?', default=[0.1,0.1,0.1])
     parser.add_argument('--data_path', nargs='?', default="data/")
-    parser.add_argument('--drop_flag', type=int, default=0, help='0:disable node dropout, 1:activate node dropout')
-    parser.add_argument('--n_loop', type=int, default=10)
+    parser.add_argument('--model', nargs='?', default="SGL")
     args = parser.parse_args()
     args.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(args.device)
-
 
     train(args)
 

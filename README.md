@@ -67,13 +67,10 @@ We aim to deliver personalized movie recommendations through deep learning model
 
 |  Method  |    HR@5  |  NDCG@5  |   HR@10  |  NDCG@10 |
 |----------|----------|----------|----------|----------|
-| LightGCN | Row1Val2 | Row1Val3 | Row1Val4 | Row1Val5 |
-|    SGL   | Row2Val2 | Row2Val3 | Row2Val4 | Row2Val5 |
-|  XSimGCL | Row3Val2 | Row3Val3 | Row3Val4 | Row3Val5 |
+| LightGCN |  0.5827  |  0.4288  |  0.7368  |  0.4788  |
+|    SGL   |  0.5881  |  0.4336  |  0.7396  |  0.4828  |
 
 ## References
 [1] He, X., Deng, K., Wang, X., Li, Y., Zhang, Y., & Wang, M. (2020, July). Lightgcn: Simplifying and powering graph convolution network for recommendation. In Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval (pp. 639-648).
 
 [2] Wu, J., Wang, X., Feng, F., He, X., Chen, L., Lian, J., & Xie, X. (2021, July). Self-supervised graph learning for recommendation. In Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval (pp. 726-735).
-
-[3] Yu, J., Xia, X., Chen, T., Cui, L., Hung, N. Q. V., & Yin, H. (2023). XSimGCL: Towards extremely simple graph contrastive learning for recommendation. IEEE Transactions on Knowledge and Data Engineering, 36(2), 913-926.

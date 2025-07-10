@@ -11,9 +11,7 @@ class LightGCN (nn.Module):
         self.n_item = data_generator.n_items
         self.emb_size = args.emb_size
         self.batch_size = args.batch_size
-        self.node_dropout = args.node_dropout[0]
-        self.mess_dropout = args.mess_dropout
-        
+        self.args = args
         self.data = data_generator
         self.layers = args.layer_size
 
@@ -25,7 +23,7 @@ class LightGCN (nn.Module):
         nn.init.xavier_uniform_(self.user_embedding.weight)
         nn.init.xavier_uniform_(self.item_embedding.weight)
 
-        self.norm_adj, _ = data_generator.load_graph()
+        self.norm_adj  = data_generator.norm_adj
         self.sparse_norm_adj = self._convert_sp_mat_to_sp_tensor(self.norm_adj).to(args.device)
 
     def _convert_sp_mat_to_sp_tensor(self, X):

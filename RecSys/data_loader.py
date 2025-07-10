@@ -26,16 +26,26 @@ class Data(object):
         print("Number of users = {},  items = {}, ratings = {}".format(self.n_users, self.n_items, self.n_train))
 
         ### Create interaction matrix
-        if self.args.option == 1:
-            print("Create interaction matrix")
-            self.norm_adj = self.load_graph()
+        print("Create interaction matrix")
+        self.norm_adj = self.load_graph()
             
         ### Create evaluation data
         print("Create evaluation data")
         self.valid = self.create_test_ranking(full_data, valid)
         self.test = self.create_test_ranking(full_data, test)    
-    
+
         
+
+    ### split items into popular and unpopular for visualization
+    def split_popular_rare_items(self):
+      data = self.train
+      num_items = len(data["iid"].unique())
+      num_popular = int(num_items*0.05)
+      num_rare = int(num_items*0.05)
+      x = data['iid'].value_counts()
+      popular = x.head(num_popular).keys().tolist()[0:1000]
+      rare = x.tail(num_rare).keys().tolist()[0:1000]
+      return np.array(popular), np.array(rare)
     
     #### Create training data:
     def construct_new_train(self):
@@ -43,11 +53,14 @@ class Data(object):
       data = self.train
 
       new_data = []
-      for user in data["user_id"].unique():
-        user_data = data.loc[data["user_id"]==user]
-        interacted_items  = user_data["movie_id"].unique() 
+      for user in data["uid"].unique():
+        user_data = data.loc[data["uid"]==user]
+        interacted_items  = user_data["iid"].unique() 
         neg_items = list(set(item_list) - set(interacted_items))
-        selected_neg_items = random.sample(list(neg_items), len(interacted_items))
+        if len(interacted_items) > len(neg_items):
+          selected_neg_items = random.choices(list(neg_items), k=len(interacted_items))  # with replacement
+        else:
+          selected_neg_items = random.sample(list(neg_items), len(interacted_items))  # without replacement
         generated_data = pd.DataFrame({"uid": np.array([user]*len(selected_neg_items)),"pos_iid":np.array(interacted_items),"neg_iid":np.array(selected_neg_items) }, columns=["uid","pos_iid","neg_iid"] ) 
         new_data.append(generated_data)
       new_train_data = pd.concat(new_data)
@@ -67,7 +80,7 @@ class Data(object):
         R = sp.dok_matrix((n_users, n_items), dtype=np.float32)
         for i in range (0, data.shape[0]):
             row =data.iloc[i]
-            user, item = int(row["user_id"]), int(row["movie_id"])
+            user, item = int(row["uid"]), int(row["iid"])
             R[user, item] = 1.0
         return R
     
@@ -114,11 +127,11 @@ class Data(object):
       item_list = [i for i in range (self.n_items)]
       for i in tqdm(range(test_data.shape[0]), ascii=True):
         row = test_data.iloc[i]
-        user = row["user_id"]
-        test_iid = row["movie_id"]
+        user = row["uid"]
+        test_iid = row["iid"]
 
-        all_user_data = full_data.loc[full_data["user_id"]==user]
-        all_selected_items = all_user_data["movie_id"].unique()
+        all_user_data = full_data.loc[full_data["uid"]==user]
+        all_selected_items = all_user_data["iid"].unique()
         neg_items = list(set(item_list) - set(all_selected_items))
         candidate = random.sample(list(neg_items), 99)
         candidate.append(test_iid)
