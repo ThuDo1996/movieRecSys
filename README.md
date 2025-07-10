@@ -28,7 +28,6 @@ We aim to deliver personalized movie recommendations through deep learning model
 
 1. **Data Preprocessing**  
    - Loaded and cleaned data using `pandas`  
-   - Handled missing values and filtered sparse users/movies
 
 2. **Data Storage with MySQL**  
    - Imported cleaned data into a MySQL database  
@@ -43,7 +42,6 @@ We aim to deliver personalized movie recommendations through deep learning model
 5. **Model Training**  
      - **LightGCN [1]**: Captures high-order connectivity by propagating and aggregating information over the user–item interaction graph.
      - **SGL [2]**: Uses the contrastive learning task to enhance the graph representation learning. Random structural augmentation (edge dropping) is used to generate augmented views.
-     --**XSimGCL [3]**: Uses the contrastive learning task to enhance the graph representation learning in which augmented views are generated using noise-based augmentation method.
 ---
 
 ## 📌 Key Highlights
